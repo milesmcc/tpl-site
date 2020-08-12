@@ -14,6 +14,7 @@ collections:
       preview: false
     fields:
       - { label: "Title", name: "title", widget: "string" }
+      - { label: "Subtitle", name: "subtitle", widget: "string" }
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Date Override", name: "dateOverride", widget: "string" }
       - { label: "Tags", name: "tags", widget: "list" }
@@ -30,6 +31,7 @@ collections:
       preview: false
     fields:
       - { label: "Title", name: "title", widget: "string" }
+      - { label: "Subtitle", name: "subtitle", widget: "string" }
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Date Override", name: "dateOverride", widget: "string" }
       - { label: "Tags", name: "tags", widget: "list" }
