@@ -14,13 +14,12 @@ collections:
       preview: false
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Subtitle", name: "subtitle", widget: "string" }
+      - { label: "Subtitle", name: "subtitle", widget: "string", required: false }
       - { label: "Date", name: "date", widget: "datetime" }
-      - { label: "Date Override", name: "dateOverride", widget: "string" }
-      - { label: "Tags", name: "tags", widget: "list" }
-      - { label: "Link", name: "link", widget: "string" }
-      - { label: "Body", name: "body", widget: "markdown" }
-      - { label: "Visible", name: "cms_visible", widget: hidden, default: true}
+      - { label: "Date Override", name: "dateOverride", widget: "string", required: false }
+      - { label: "Tags", name: "tags", widget: "list", required: false }
+      - { label: "Link", name: "link", widget: "string", required: false }
+      - { label: "Body", name: "body", widget: "markdown", required: false }
   - name: "media"
     label: "Media"
     create: true
@@ -31,13 +30,12 @@ collections:
       preview: false
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Subtitle", name: "subtitle", widget: "string" }
-      - { label: "Date", name: "date", widget: "datetime" }
-      - { label: "Date Override", name: "dateOverride", widget: "string" }
-      - { label: "Tags", name: "tags", widget: "list" }
-      - { label: "Link", name: "link", widget: "string" }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
-      - { label: "Visible", name: "cms_visible", widget: hidden, default: true}
+      - { label: "Subtitle", name: "subtitle", widget: "string", required: false }
+      - { label: "Date", name: "date", widget: "datetime", required: false }
+      - { label: "Date Override", name: "dateOverride", widget: "string", required: false }
+      - { label: "Tags", name: "tags", widget: "list", required: false }
+      - { label: "Link", name: "link", widget: "string", required: false }
+      - { label: "Body", name: "body", widget: "markdown", required: false }
   - label: "Pages"
     name: "pages"
     editor:
@@ -47,26 +45,26 @@ collections:
         name: "home"
         file: "content/_index.md"
         fields:
-          - {label: "Browser Title", name: supertitle, widget: string}
+          - {label: "Browser Title", name: supertitle, widget: string, required: false}
           - {label: Title, name: title, widget: string}
-          - {label: Subtitle, name: subtitle, widget: string}
-          - {label: Description, name: description, widget: text}
-          - {label: 'Body', name: 'body', widget: 'markdown' }
+          - {label: Subtitle, name: subtitle, widget: string, required: false}
+          - {label: Description, name: description, widget: text, required: false}
+          - {label: Body, name: body, widget: markdown, required: false }
       - label: "People"
         name: "people"
         file: "content/people.md"
         fields:
-          - {label: "Browser Title", name: supertitle, widget: string}
+          - {label: "Browser Title", name: supertitle, widget: string, required: false}
           - {label: Title, name: title, widget: string}
-          - {label: Subtitle, name: subtitle, widget: string}
-          - {label: Description, name: description, widget: text}
-          - {label: 'Body', name: 'body', widget: 'markdown' }
+          - {label: Subtitle, name: subtitle, widget: string, required: false}
+          - {label: Description, name: description, widget: text, required: false}
+          - {label: Body, name: body, widget: markdown, required: false }
       - label: "Activities"
         name: "activities"
         file: "content/activities.md"
         fields:
-          - {label: "Browser Title", name: supertitle, widget: string}
+          - {label: "Browser Title", name: supertitle, widget: string, required: false}
           - {label: Title, name: title, widget: string}
-          - {label: Subtitle, name: subtitle, widget: string}
-          - {label: Description, name: description, widget: text}
-          - {label: 'Body', name: 'body', widget: 'markdown' }
+          - {label: Subtitle, name: subtitle, widget: string, required: false}
+          - {label: Description, name: description, widget: text, required: false}
+          - {label: Body, name: body, widget: markdown, required: false }
