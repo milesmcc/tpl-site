@@ -1,0 +1,24 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Tech Policy Lab"
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[taxonomies]
+tag = "tags"
+
+[[menu.main]]
+name = "Research"
+url = "/research/"
+weight = 1
+
+[[menu.main]]
+name = "Media"
+url = "/media/"
+weight = 2
+
+[[menu.main]]
+name = "Contact"
+url = "mailto:sarah.kreps@cornell.edu"
+weight = 3

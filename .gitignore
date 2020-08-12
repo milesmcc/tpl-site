@@ -1,0 +1,6 @@
+.DS_Store
+node_modules
+public/*
+_site/*
+*/_gen/*
+resources/

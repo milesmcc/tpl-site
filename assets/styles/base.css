@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=IBM+Plex+Serif:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+@import 'a17t/dist/a17t.css';
+@import 'a17t/dist/tailwind.css';
+
+:root {
+    --color-urge-000-root: #ffffff;
+    --color-urge-100-root: #fae1dc;
+    --color-urge-200-root: #f2c3ba;
+    --color-urge-300-root: #e8a69a;
+    --color-urge-400-root: #d86d6d;
+    --color-urge-500-root: #c95252;
+    --color-urge-600-root: #b31b1b;
+    --color-urge-700-root: #921515;
+    --color-urge-800-root: #801212;
+    --color-urge-900-root: #640e0e;
+
+    --color-urge-900: var(--color-urge-900-root);
+    --color-urge-800: var(--color-urge-800-root);
+    --color-urge-700: var(--color-urge-700-root);
+    --color-urge-600: var(--color-urge-600-root);
+    --color-urge-500: var(--color-urge-500-root);
+    --color-urge-400: var(--color-urge-400-root);
+    --color-urge-300: var(--color-urge-300-root);
+    --color-urge-200: var(--color-urge-200-root);
+    --color-urge-100: var(--color-urge-100-root);
+    --color-urge-000: var(--color-urge-000-root);
+}
+
+:root {
+    --color-title: var(--color-urge-600);
+
+    --border-radius-sm: none;
+    --border-radius-default: none;
+    --border-radius-md: none;
+    --border-radius-lg: none;
+    --border-radius-xl: none;
+
+    --border-width-default: 2px;
+    --border-width-2: 3px;
+    --border-width-4: 5px;
+    --border-width-8: 8px;
+
+    --family-primary: "IBM Plex Serif", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    --family-secondary: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.content a {
+    transition: all 100ms ease-in;
+    color: var(--color-urge-600-fallback) !important;
+    text-decoration-color: var(--color-urge-300-fallback) !important;
+}
+
+.content a:hover {
+    color: var(--color-urge-500-fallback) !important;
+    text-decoration-color: var(--color-urge-200-fallback) !important;
+}
+
+.vertical {
+    writing-mode: vertical-rl;
+}
+
+.sticky-top {
+    position: sticky;
+    top: 1rem;
+}
+
+.toc li a {
+    padding: 0.25rem 0.5rem;
+    transition: all 100ms ease-in;
+    display: block;
+
+    color: var(--color-neutral-400-fallback);
+    border-left: 1.5px solid var(--color-neutral-400-fallback);
+}
+
+.toc li a.active {
+    color: var(--color-neutral-600-fallback);
+    border-left-color: var(--color-neutral-600-fallback);
+    /* padding-left: 0.75rem; */
+    border-left-width: 3px;
+}
+
+.toc ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.hover-rotate {
+    transition: transform 100ms ease-in;
+}
+
+.hover-rotate:hover {
+    transform: rotate(10deg);
+}
+
+.clip-bg {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+}

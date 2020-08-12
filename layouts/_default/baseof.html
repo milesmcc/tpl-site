@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="{{ .Page.Language.Lang }}">
+  <head>
+    {{ partial "head.html" . }}
+  </head>
+  {{ if (eq ($.Param "redirect") nil) }}
+  <body class="bg-neutral-000">
+    <section class="relative section ~urge !high clip-bg">
+        <div class="max-w-screen-xl mx-auto md:flex justify-center p-4">
+            <div class="md:w-8/12">
+              {{ partial "navbar.html" . }}
+              {{ if (not (eq ($.Param "redirect") nil)) }}
+              <aside class="aside ~urge !normal">
+                <strong>You're probably looking for a different page.</strong> Click <a href="{{ $.Param "redirect" }}">here</a> if you are not redirected automatically.
+              </aside>
+              {{ end }}
+              <div class="mt-16 mb-20 md:mb-24">
+                {{ block "header" . }}
+                {{ end }}
+              </div>
+            </div>
+          </div>
+    </section>
+    <section class="max-w-screen-xl mx-auto p-4 mt-8 relative min-h-screen">
+      <div class="md:flex">
+        <aside class="md:w-2/12">
+
+        </aside>
+        <div class="md:w-8/12">
+          {{ block "main" . }}
+          {{ end }}
+          <hr class="sep h-16">
+          <footer>
+            {{ partial "footer.html" . }}
+          </footer>
+        </div>
+        <aside class="md:w-2/12 pl-8 self-start sticky-top hidden md:block text-xs">
+          {{ if .Params.toc }}
+          <div class="toc">
+            {{.TableOfContents}}
+            <ul id="toc-extra"></ul>
+          </div>
+          {{ end }}
+        </aside>
+      </div>
+    </section>
+    <noscript><img src="https://shynet.rmrm.io/ingress/13c389fa-6b96-4116-8467-b4d238d9b79e/pixel.gif"></noscript> <script src="https://shynet.rmrm.io/ingress/13c389fa-6b96-4116-8467-b4d238d9b79e/script.js"></script>  </body>
+  {{ end }}
+</html>

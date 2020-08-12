@@ -1,0 +1,32 @@
+backend:
+  name: git-gateway
+  branch: master
+media_folder: "/static/media" # Media files will be stored in the repo under static/images/uploads
+public_folder: "/media"
+collections:
+  - name: "research"
+    label: "Research"
+    create: true
+    folder: "content/research/"
+    title: "research"
+    identifier_field: "title"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Date Override", name: "dateOverride", widget: "string" }
+      - { label: "Tags", name: "tags", widget: "list" }
+      - { label: "Link", name: "link", widget: "string" }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+  - name: "media"
+    label: "Media"
+    create: true
+    folder: "content/media/"
+    title: "media"
+    identifier_field: "title"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Date Override", name: "dateOverride", widget: "string" }
+      - { label: "Tags", name: "tags", widget: "list" }
+      - { label: "Link", name: "link", widget: "string" }
+      - { label: 'Body', name: 'body', widget: 'markdown' }

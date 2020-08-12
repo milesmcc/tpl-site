@@ -1,0 +1,10 @@
+<footer class="family-secondary support content">
+  <p class="pb-8">
+    &copy; 2020 Cornell University.
+    Content is licensed <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>, a Free Culture License.
+    This site collects (minimal) user analytics using <a href="https://github.com/milesmcc/shynet">Shynet</a>.
+    {{ range .AlternativeOutputFormats -}}
+    This page is also available via <a href="{{ .Permalink }}">{{ .Name }}</a>.
+    {{ end -}}
+  </p>
+</footer>

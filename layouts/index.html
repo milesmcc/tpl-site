@@ -1,0 +1,17 @@
+{{ define "header" }}
+{{ partial "heading.html" . }}
+{{ end }}
+
+{{ define "main" }}
+<main class="md:flex">
+  <section class="content md:w-3/5 mb-8 md:mr-12">
+    {{ .Content }}
+  </section>
+  <section class="recently md:w-2/5">
+    <h3 class="heading text-2xl mb-4">Recently @ TPL</h3>
+    {{ range ((first 10 (where site.RegularPages "Type" "in" (slice "research" "media"))).GroupBy "Section").Reverse }}
+    {{ partial "list-group.html" . }}
+    {{ end }}
+  </section>
+</main>
+{{ end }}
