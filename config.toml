@@ -9,16 +9,21 @@ unsafe = true
 tag = "tags"
 
 [[menu.main]]
+name = "People"
+url = "/people/"
+weight = 1
+
+[[menu.main]]
+name = "Activities"
+url = "/activities/"
+weight = 2
+
+[[menu.main]]
 name = "Research"
 url = "/research/"
-weight = 1
+weight = 3
 
 [[menu.main]]
 name = "Media"
 url = "/media/"
-weight = 2
-
-[[menu.main]]
-name = "Contact"
-url = "mailto:sarah.kreps@cornell.edu"
-weight = 3
+weight = 4

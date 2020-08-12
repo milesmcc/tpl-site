@@ -10,7 +10,7 @@
   <div class="text-right">
     <ul class="-ml-2 md:ml-0">
       {{ range .Site.Menus.main }}
-      <li class="portal text-sm {{ if hasPrefix $currentPage.RelPermalink .URL }} ~neutral active text-urge-700 {{ end }}">
+      <li class="portal text-sm {{ if hasPrefix $currentPage.RelPermalink .URL }} ~urge !low active {{ end }}" {{ if hasPrefix $currentPage.RelPermalink .URL }}style="background-color: white;"{{end}}>
         <a href="{{ .URL }}">
           {{ .Pre }}
           <span>{{ .Name }}</span>

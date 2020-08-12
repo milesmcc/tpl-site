@@ -51,4 +51,4 @@ collections:
           - {label: Title, name: title, widget: string}
           - {label: Subtitle, name: subtitle, widget: string}
           - {label: Description, name: description, widget: text}
-          - { label: 'Body', name: 'body', widget: 'markdown' }
+          - {label: 'Body', name: 'body', widget: 'markdown' }
