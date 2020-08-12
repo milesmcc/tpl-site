@@ -1,13 +1,14 @@
 {{ $currentPage := . }}
 {{ $seal := resources.Get "images/cornell.svg" | resources.Fingerprint }}
-<nav class="mb-6 md:my-6 flex items-center justify-between">
+<nav class="mb-6 md:my-6 md:flex items-center justify-between">
   <a class="flex items-center" href="/">
     <img src="{{ $seal.Permalink }}" style="fill: white; height: 40px;">
     <h4 class="heading text-sm ml-2">
       Tech Policy Lab<br><span class="text-urge-200">Cornell University</span>
     </h4>
   </a>
-  <div class="text-right">
+  <hr class="md:hidden sep h-4">
+  <div class="md:text-right">
     <ul class="-ml-2 md:ml-0">
       {{ range .Site.Menus.main }}
       <li class="portal text-sm {{ if hasPrefix $currentPage.RelPermalink .URL }} ~urge !low active {{ end }}" {{ if hasPrefix $currentPage.RelPermalink .URL }}style="background-color: white;"{{end}}>
