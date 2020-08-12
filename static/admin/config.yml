@@ -38,3 +38,15 @@ collections:
       - { label: "Link", name: "link", widget: "string" }
       - { label: 'Body', name: 'body', widget: 'markdown' }
       - { label: "Visible", name: "cms_visible", widget: hidden, default: true}
+  - label: "Pages"
+    name: "pages"
+    files:
+      - label: "Home Page"
+        name: "home"
+        file: "content/_index.md"
+        fields:
+          - {label: "Browser Title", name: supertitle, widget: string}
+          - {label: Title, name: title, widget: string}
+          - {label: Subtitle, name: subtitle, widget: string}
+          - {label: Description, name: description, widget: text}
+          - { label: 'Body', name: 'body', widget: 'markdown' }
