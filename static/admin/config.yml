@@ -12,7 +12,6 @@ collections:
     identifier_field: "title"
     editor:
       preview: false
-    filter: {field: "cms_visible", value: true}
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Date", name: "date", widget: "datetime" }
@@ -29,7 +28,6 @@ collections:
     identifier_field: "title"
     editor:
       preview: false
-    filter: {field: "cms_visible", value: true}
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Date", name: "date", widget: "datetime" }
@@ -43,9 +41,27 @@ collections:
     editor:
       preview: false
     files:
-      - label: "Home Page"
+      - label: "Home"
         name: "home"
         file: "content/_index.md"
+        fields:
+          - {label: "Browser Title", name: supertitle, widget: string}
+          - {label: Title, name: title, widget: string}
+          - {label: Subtitle, name: subtitle, widget: string}
+          - {label: Description, name: description, widget: text}
+          - {label: 'Body', name: 'body', widget: 'markdown' }
+      - label: "People"
+        name: "people"
+        file: "content/people.md"
+        fields:
+          - {label: "Browser Title", name: supertitle, widget: string}
+          - {label: Title, name: title, widget: string}
+          - {label: Subtitle, name: subtitle, widget: string}
+          - {label: Description, name: description, widget: text}
+          - {label: 'Body', name: 'body', widget: 'markdown' }
+      - label: "Activities"
+        name: "activities"
+        file: "content/activities.md"
         fields:
           - {label: "Browser Title", name: supertitle, widget: string}
           - {label: Title, name: title, widget: string}
