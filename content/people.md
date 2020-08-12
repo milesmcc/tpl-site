@@ -1,7 +1,6 @@
 ---
-title: "People"
+title: People
 ---
-
 ##### Faculty Director
 
 * [Sarah Kreps](https://government.cornell.edu/sarah-kreps) (Government, Law)
@@ -9,16 +8,14 @@ title: "People"
 ##### Faculty Associates
 
 * [Karen Levy](https://www.karen-levy.net/) (Information Science)
-
 * [Nathan Matias](https://natematias.com/) (Communication)
-
 * [Drew Margolin](https://communication.cals.cornell.edu/people/drew-margolin/) (Communication)
 
 ##### Graduate Students
 
 * [Julie George](https://www.juliexgeorge.com/) (Government)
 
-##### Postdoctoral Fellow
+##### Postdoctoral Fellows
 
 * [Baobao Zhang](https://baobaofzhang.github.io/) (Government)
 
