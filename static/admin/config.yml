@@ -10,19 +10,22 @@ collections:
     folder: "content/research/"
     title: "research"
     identifier_field: "title"
+    filter: {field: "cms_visible", value: true}
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Date Override", name: "dateOverride", widget: "string" }
       - { label: "Tags", name: "tags", widget: "list" }
       - { label: "Link", name: "link", widget: "string" }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Visible", name: "cms_visible", widget: hidden, default: true}
   - name: "media"
     label: "Media"
     create: true
     folder: "content/media/"
     title: "media"
     identifier_field: "title"
+    filter: {field: "cms_visible", value: true}
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Date", name: "date", widget: "datetime" }
@@ -30,3 +33,4 @@ collections:
       - { label: "Tags", name: "tags", widget: "list" }
       - { label: "Link", name: "link", widget: "string" }
       - { label: 'Body', name: 'body', widget: 'markdown' }
+      - { label: "Visible", name: "cms_visible", widget: hidden, default: true}
