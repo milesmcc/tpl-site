@@ -10,6 +10,8 @@ collections:
     folder: "content/research/"
     title: "research"
     identifier_field: "title"
+    editor:
+      preview: false
     filter: {field: "cms_visible", value: true}
     fields:
       - { label: "Title", name: "title", widget: "string" }
@@ -25,6 +27,8 @@ collections:
     folder: "content/media/"
     title: "media"
     identifier_field: "title"
+    editor:
+      preview: false
     filter: {field: "cms_visible", value: true}
     fields:
       - { label: "Title", name: "title", widget: "string" }
