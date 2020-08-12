@@ -40,6 +40,8 @@ collections:
       - { label: "Visible", name: "cms_visible", widget: hidden, default: true}
   - label: "Pages"
     name: "pages"
+    editor:
+      preview: false
     files:
       - label: "Home Page"
         name: "home"
