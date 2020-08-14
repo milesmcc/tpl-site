@@ -7,9 +7,7 @@ title: People
 
 ##### Faculty Associates
 
-* [Karen Levy](https://www.karen-levy.net/) (Information Science)
-* [J. Nathan Matias](https://natematias.com/) (Communication)
-* [Drew Margolin](https://communication.cals.cornell.edu/people/drew-margolin/) (Communication)
+* [Doug Kriner](https://government.cornell.edu/douglas-l-kriner) (Government)
 
 ##### Graduate Students
 
