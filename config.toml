@@ -1,6 +1,6 @@
-baseURL = "https://tech-policy-lab.netlify.app"
+baseURL = "https://tpl.as.cornell.edu"
 languageCode = "en-us"
-title = "Tech Policy Lab"
+title = "Cornell Tech Policy Lab"
 
 [markup.goldmark.renderer]
 unsafe = true
