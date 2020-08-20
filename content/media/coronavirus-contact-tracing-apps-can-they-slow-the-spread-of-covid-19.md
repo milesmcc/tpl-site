@@ -7,4 +7,5 @@ dateOverride: May 2020
 tags:
   - Nature
   - Digital Contact Tracing
+link: https://www.nature.com/articles/d41586-020-01514-2
 ---
