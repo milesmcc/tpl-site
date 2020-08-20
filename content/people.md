@@ -3,19 +3,19 @@ title: People
 ---
 ##### Faculty Director
 
-* [Sarah Kreps](https://government.cornell.edu/sarah-kreps) (Government, Law)
+* [Sarah Kreps](https://government.cornell.edu/sarah-kreps) 
 
 ##### Faculty Associates
 
-* [Doug Kriner](https://government.cornell.edu/douglas-l-kriner) (Government)
+* [Doug Kriner](https://government.cornell.edu/douglas-l-kriner) 
 
 ##### Graduate Students
 
-* [Julie George](https://www.juliexgeorge.com/) (Government)
+* [Julie George](https://www.juliexgeorge.com/) 
 
 ##### Postdoctoral Fellows
 
-* [Baobao Zhang](https://baobaofzhang.github.io/) (Government)
+* [Baobao Zhang](https://baobaofzhang.github.io/) 
 
 ##### Fellows
 
