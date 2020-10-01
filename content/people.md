@@ -17,6 +17,11 @@ title: People
 
 * [Baobao Zhang](https://baobaofzhang.github.io/) 
 
+##### Undergraduate Lab Managers
+
+* [Nathaniel Watson](https://milstein-program.as.cornell.edu/nathaniel-watson)
+* [Jasper Weed](https://milstein-program.as.cornell.edu/jasper-weed)
+
 ##### Fellows
 
 * [R. Miles McCain](https://miles.land)
