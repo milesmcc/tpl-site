@@ -17,11 +17,26 @@ title: People
 
 * [Baobao Zhang](https://baobaofzhang.github.io/) 
 
-##### Undergraduate Lab Managers
+##### Milstein Research Fellows
 
-* [Nathaniel Watson](https://milstein-program.as.cornell.edu/nathaniel-watson)
-* [Jasper Weed](https://milstein-program.as.cornell.edu/jasper-weed)
+* Nina Miller
 
-##### Fellows
+  [Tanvi Namjoshi](http://milstein-program.as.cornell.edu/tanvi-namjoshi)
+
+  [Olaf de Rohan Willner](http://milstein-program.as.cornell.edu/olaf-de-rohan-willner)
+
+  [Gloria Cai](http://milstein-program.as.cornell.edu/gloria-cai)
+
+  [Keyi Ding](https://milstein-program.as.cornell.edu/keyi-ding)
+
+  [Nathaniel Watson](https://milstein-program.as.cornell.edu/nathaniel-watson)
+
+  [Noah Watson](https://milstein-program.as.cornell.edu/noah-watson)
+
+  [Jasper Weed](https://milstein-program.as.cornell.edu/jasper-weed)
+
+
+
+##### Non-Resident Fellows
 
 * [R. Miles McCain](https://miles.land)
