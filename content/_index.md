@@ -15,8 +15,8 @@ Some of the most consequential developments of the last two decades sit squarely
 
 * The deployment of drones to revolutionize counterterrorism
 * The manipulation of social media to influence foreign elections
-* The pursuit of artificial intelligence to fuel a new global arms race
-* The use of scientific models to formulate Covid-19 public health policies
+* The use and misuse of artificial intelligence in political communication
+* The public's adoption of or resistance to Covid-19 surveillance technologies 
 
 All of these policies have technological innovation at their core, but their design and implementation have influenced domestic and international politics. 
 
