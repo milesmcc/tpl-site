@@ -20,4 +20,4 @@ Some of the most consequential developments of the last two decades sit squarely
 
 All of these policies have technological innovation at their core, but their design and implementation have influenced domestic and international politics. 
 
-In the Cornell Tech Policy Lab, we break down academic silos and foster radical interdisciplinary collaborations at the intersection of politics and technology.  We conduct research into the ways that emerging tech can disrupt politics; conduct empirical tests of those ideas; and innovate industry applications that build on those concepts and evidence.
+In the Cornell Tech Policy Lab, we break down academic silos and foster radical interdisciplinary collaborations at the intersection of politics and technology.  We conduct research into the ways that emerging tech can disrupt politics; conduct empirical tests of those ideas; and innovate industry start-ups that build on those concepts and evidence.
