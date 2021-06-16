@@ -1,7 +1,8 @@
 ---
-title: "Research"
-subtitle: "Core research areas and recent projects"
+title: Research
+subtitle: Core research areas and recent projects
 cms_visible: true
+date: 2021-06-15T15:55:59.201Z
 ---
 
 # Core Research Areas
